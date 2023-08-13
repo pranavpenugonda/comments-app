@@ -1,0 +1,95 @@
+/* Write your CSS here */
+.bg-container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cont-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.comment-heading {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-size: 32px;
+}
+
+.desc {
+  font-family: 'Roboto';
+  color: #475569;
+}
+
+.input {
+  border: 1px solid #cbd2d9;
+  outline: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.button {
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  width: 120px;
+  background-color: #0284c7;
+  padding: 10px;
+  color: #ffffff;
+  border-radius: 3px;
+}
+
+.comment-form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.hr-line {
+  border: 1px solid #cbd2d9;
+  width: 1020px;
+  margin-left: 220px;
+}
+
+.comment-img {
+  height: 300px;
+  width: 350px;
+}
+
+.comment-count-container {
+  display: flex;
+  margin-left: 220px;
+}
+
+.comment-count {
+  background-color: #0284c7;
+  color: #ffffff;
+  padding: 5px;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.comment-ul-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 0px;
+}
+
+.comment-txt {
+  font-family: 'Roboto';
+  color: #1e293b;
+  margin-left: 3px;
+}
